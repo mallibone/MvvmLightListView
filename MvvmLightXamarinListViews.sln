@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmLightXamarinListViews", "MvvmLightXamarinListViews\MvvmLightXamarinListViews.csproj", "{0027F248-A3A9-4455-9F60-D1F2AD27ADC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmLightXamarinListViews.Core", "MvvmLightXamarinListViews.Core\MvvmLightXamarinListViews.Core.csproj", "{99F529D2-4520-4A6C-A5E3-1EEFC8AFC5B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvvmLightXamarinListViews.Core", "MvvmLightXamarinListViews.Core\MvvmLightXamarinListViews.Core.csproj", "{99F529D2-4520-4A6C-A5E3-1EEFC8AFC5B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmLightXamarinListViews.Storyboard", "MvvmLightXamarinListViews.Storyboard\MvvmLightXamarinListViews.Storyboard.csproj", "{2254EA8A-8BD2-4961-B5D0-38905667DC5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,16 @@ Global
 		{99F529D2-4520-4A6C-A5E3-1EEFC8AFC5B9}.Release|iPhone.Build.0 = Release|Any CPU
 		{99F529D2-4520-4A6C-A5E3-1EEFC8AFC5B9}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{99F529D2-4520-4A6C-A5E3-1EEFC8AFC5B9}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{2254EA8A-8BD2-4961-B5D0-38905667DC5F}.Debug|Any CPU.ActiveCfg = Debug|iPhone
+		{2254EA8A-8BD2-4961-B5D0-38905667DC5F}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{2254EA8A-8BD2-4961-B5D0-38905667DC5F}.Debug|iPhone.Build.0 = Debug|iPhone
+		{2254EA8A-8BD2-4961-B5D0-38905667DC5F}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{2254EA8A-8BD2-4961-B5D0-38905667DC5F}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{2254EA8A-8BD2-4961-B5D0-38905667DC5F}.Release|Any CPU.ActiveCfg = Release|iPhone
+		{2254EA8A-8BD2-4961-B5D0-38905667DC5F}.Release|iPhone.ActiveCfg = Release|iPhone
+		{2254EA8A-8BD2-4961-B5D0-38905667DC5F}.Release|iPhone.Build.0 = Release|iPhone
+		{2254EA8A-8BD2-4961-B5D0-38905667DC5F}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{2254EA8A-8BD2-4961-B5D0-38905667DC5F}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
