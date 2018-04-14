@@ -31,23 +31,14 @@ namespace MvvmLightXamarinListViews
             AddTimerButton.TranslatesAutoresizingMaskIntoConstraints = false;
 
             var parentMargins = View.LayoutMarginsGuide;
-            //CountdownsTableView.AutoPinEdgesToSuperviewEdgesExcludingEdge(ALEdge.Bottom);
-            //CountdownsTableView.AutoPinEdge(ALEdge.Bottom, ALEdge.Top, AddTimerButton, 16);
+            CountdownsTableView.AutoPinEdgesToSuperviewEdgesExcludingEdge(ALEdge.Bottom);
+            CountdownsTableView.AutoPinEdge(ALEdge.Bottom, ALEdge.Top, AddTimerButton, 16);
 
-            //AddTimerButton.AutoPinEdgesToSuperviewMarginsExcludingEdge(ALEdge.Top);
-
-            CountdownsTableView.TopAnchor.ConstraintEqualTo(parentMargins.TopAnchor, 0).Active = true;
-            CountdownsTableView.LeftAnchor.ConstraintEqualTo(parentMargins.LeftAnchor, 0).Active = true;
-            CountdownsTableView.RightAnchor.ConstraintEqualTo(parentMargins.RightAnchor, 0).Active = true;
-            CountdownsTableView.BottomAnchor.ConstraintEqualTo(AddTimerButton.BottomAnchor, -16).Active = true;
-
-            AddTimerButton.CenterXAnchor.ConstraintEqualTo(parentMargins.CenterXAnchor).Active = true;
-            AddTimerButton.BottomAnchor.ConstraintEqualTo(parentMargins.BottomAnchor, -8).Active = true;
+            AddTimerButton.AutoPinEdgesToSuperviewMarginsExcludingEdge(ALEdge.Top);
 
             // Setup bindings
             _tableViewController = Vm.Countdowns.GetController(CreatePersonCell, BindCellDelegate);
             _tableViewController.TableView = CountdownsTableView;
-            //AddChildViewController(_tableViewController);
 
             AddTimerButton.SetCommand("TouchUpInside", Vm.AddCountdownCommand);
         }

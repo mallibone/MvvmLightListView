@@ -27,8 +27,6 @@ namespace MvvmLightXamarinListViews
             AddSubview(RemainingTimeLabel);
             RemainingTimeLabel.TranslatesAutoresizingMaskIntoConstraints = false;
 
-            //RemainingTimeLabel.AutoAlignAxisToSuperviewAxis(ALAxis.Horizontal);
-            //RemainingTimeLabel.AutoPinEdgeToSuperviewEdge(ALEdge.Left, 8);
             RemainingTimeLabel.CenterYAnchor.ConstraintEqualTo(LayoutMarginsGuide.CenterYAnchor).Active = true;
             RemainingTimeLabel.LeftAnchor.ConstraintEqualTo(LayoutMarginsGuide.LeftAnchor, 8).Active = true;
         }
